@@ -1,0 +1,314 @@
+.background-overlay{
+background-color: rgba(0,0,0,0.51);
+height: 480px;
+position: absolute;
+
+}
+.h3_title {
+    color: #fff;
+    letter-spacing: 0px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+}
+.p_text {
+    margin: 12px 0 18px;
+    font-size: 20px;
+    font-weight: 400;
+} 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Container{
+  background: url('/img/back.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 95.8vh;
+  margin-top: 50px;
+  width: 100vw auto;
+  background-position: center;
+  padding: 40px 0px;
+}
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: .8s;
+  transition-property: opacity;
+ }
+ 
+ .carousel-fade  .carousel-item.active,
+ .carousel-fade  .carousel-item-next.carousel-item-left,
+ .carousel-fade  .carousel-item-prev.carousel-item-right {
+   opacity: 1;
+ }
+ 
+ .carousel-fade .active.carousel-item-left,
+ .carousel-fade  .active.carousel-item-right {
+  opacity: 0;
+ }
+ 
+ .carousel-fade  .carousel-item-next,
+ .carousel-fade .carousel-item-prev,
+ .carousel-fade .carousel-item.active,
+ .carousel-fade .active.carousel-item-left,
+ .carousel-fade  .active.carousel-item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+ }
+ 
+.Container h1{
+  margin:25px auto;
+  text-align: center;
+  color: #ddd;
+}
+.contact-form{
+  margin: auto;
+  max-width:600px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.contact-form-text{
+  display: block;
+  width: 76%;
+  margin: 16px 16px;
+  border: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: .5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 6px #34495e;
+}
+textarea.contact-form-text{
+  resize:none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border:0;
+  background: #34495e;
+  padding: 12px 50px;
+  color: #fff;
+  border-radius:20px; 
+}
+.contact-form-btn:hover{
+background: #2980b9;
+}
+.section2{
+  background-color: #de8c63;
+    color: #1b1b1b;
+    height:640px;
+  }
+  .bg-black{
+    color: #ffffff;
+    position: absolute;
+  }
+  .small{
+    font-size: 85%;
+    color:black;
+  }
+  .small2{
+    font-size: 98%;
+    color:black;
+  }
+  .ul-style{
+    list-style: none;
+    text-decoration: none;
+    text-decoration-style: none;
+  }
+  ul li a:hover{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: rgb(214, 65, 65);
+  }
+ p a:hover{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: rgb(214, 65, 65);
+  }
+  .footer-heading{
+    color: #d3d3d3;
+    font-size: 16px;
+    margin-top: 10px;
+
+  }
+  .sub-footer{
+    color: #f7e2d8;
+    font-size: 12px;
+    
+  }
+  .mart-2{
+    margin-left:40px;
+  }
+  .footer-p{
+    color: #a29087;
+    font-size: 15px;
+  }
+
+
+  .small3{
+    font-size: 90%;
+    color:black;
+  }
+  .b-10{
+    font-weight: 700;
+  }
+  .m-20{
+    margin-top: 30px;
+  }
+  .btn_learn{
+    color:#ffff;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  .margin-top{
+    margin-top: 40px;
+  }
+  .section4{
+    background: #391300;
+    height: 400px;
+  }
+  .footer{
+    background: #331100;
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  .btn-red{
+    text-align: center;
+    color: #FFFFFF;
+    background: #ff513e;
+    border-color: #f8513e;
+    width: 120px;
+    padding: 7px 12px;
+    border-radius: 0;
+    margin-left: 70px;
+
+   
+  }
+  .w-90{
+    width:90%
+  }
+  .bg-white{
+    color:#ffff;
+  }
+  .mr-5{
+    margin-left: -15px;
+  }
+  .f-30{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  .f-14{
+    font-size: 14px;
+    padding: 0 15px;
+    font-family: sans-serif;
+  }
+  .f-24{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  .text-decor{
+    text-decoration: none;
+    list-style: none;
+  }
+.section3{
+  height: 620px;
+}
+.w-80{
+  width: 50%;
+}
+.li_arrow{
+  margin-right: 10px;
+    font-weight: 700;
+    color: #de8c63;
+    border: 1px solid;
+    padding: 4px 8px;
+    font-size: 11px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.bg-bl{
+  background-color:rgba(0,0,0,0.61);
+  position: absolute;
+  height: 60px;
+  padding-top: 10px;
+
+}
+.w-80{
+  width: 82%;
+}
+.mo-5{
+  margin-top: -60px;
+}
+.section1-Contact{
+  background: #de8c63;
+  height: 120px;
+}
+
+
+
+
+.kjgfg {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    transition: -webkit-transform 0.6s ease;
+    transition: transform 0.6s ease;
+    transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+  }
+  .carouse-item-next.carousl-item-left,
+.carouse-item-prev.carouse-item-right {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.carousl-item-next,
+.active.carouel-item-right {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carosel-item-next,
+  .active.carouel-item-right {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+    .carouel-item-next.carouel-item-left,
+    .carouel-item-prev.carosel-item-right {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+.carosel-item-prev,
+.active.caousel-item-left {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+  .carusel-item-prev,
+  .active.carusel-item-left {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
